@@ -12,6 +12,28 @@
 `TestActivity` 自定义图片预览页面构建的示例
 
 
+## 集成
+
+Add it in your root build.gradle at the end of repositories:
+````
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+````
+Add the dependency
+[![](https://jitpack.io/v/OneZeroYang/PreviewPictureView.svg)](https://jitpack.io/#OneZeroYang/PreviewPictureView)
+````
+
+dependencies {
+	        implementation 'com.github.OneZeroYang:PreviewPictureView:1.1.0'
+	}
+````
+
 ## 如何使用
 
 1. 启动一个简单的图片预览页面(使用详情请看`MainActivity`)
