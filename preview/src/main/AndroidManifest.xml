@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.batchat.preview">
+
+    <application>
+
+        <activity
+            android:name=".TestActivity"
+            android:theme="@style/myTransparent"></activity>
+
+
+        <activity
+            android:name=".SimpleImagePreviewActivity"
+            android:theme="@style/myTransparent"></activity>
+    </application>
+
+</manifest>
